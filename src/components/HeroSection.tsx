@@ -25,8 +25,8 @@ export default function HeroSection() {
 
       {/* Heading */}
       <div className="overflow-hidden w-full">
-        <FadeIn delay={0.15} y={40} as="h1" className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5">
-          Hi, i&apos;m jack
+        <FadeIn delay={0.15} y={40} as="h1" className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[10.5vw] sm:text-[11vw] md:text-[12vw] lg:text-[13.5vw] mt-6 sm:mt-4 md:-mt-5">
+          Hi, i&apos;m aniruddh
         </FadeIn>
       </div>
 
@@ -39,7 +39,7 @@ export default function HeroSection() {
         className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0"
       >
         <FadeIn delay={0.6} y={30}>
-          <img src={PORTRAIT_URL} alt="Jack, 3D creator" className="w-full h-auto select-none" draggable={false} />
+          <img src={PORTRAIT_URL} alt="Aniruddh, 3D creator" className="w-full h-auto select-none" draggable={false} />
         </FadeIn>
       </Magnet>
 

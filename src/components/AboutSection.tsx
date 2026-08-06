@@ -16,7 +16,7 @@ const ABOUT_TEXT =
 
 export default function AboutSection() {
   return (
-    <section id="about" className="relative min-h-screen px-5 sm:px-8 md:px-10 py-20 flex flex-col items-center justify-center overflow-hidden">
+    <section id="about" className="relative min-h-screen px-5 sm:px-8 md:px-10 py-20 flex flex-col items-center justify-center overflow-hidden scroll-mt-10">
       {/* Decorative corner images */}
       <FadeIn delay={0.1} x={-80} y={0} duration={0.9} className="absolute top-[4%] left-[1%] sm:left-[2%] md:left-[4%] w-[120px] sm:w-[160px] md:w-[210px]">
         <img src={MOON_URL} alt="" className="w-full h-auto select-none" draggable={false} />
@@ -43,7 +43,7 @@ export default function AboutSection() {
         />
       </div>
 
-      <div className="mt-16 sm:mt-20 md:mt-24">
+      <div id="contact" className="mt-16 sm:mt-20 md:mt-24 scroll-mt-24">
         <FadeIn delay={0.2} y={20}>
           <ContactButton />
         </FadeIn>
